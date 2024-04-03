@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () =>{
     const Faqcontainer = document.querySelector('Fad-Accordion');
 
-    Faqcontainer. addEventListener('click', (e)=>{
+    Faqcontainer.addEventListener('click', (e)=>{
          const gruopHeader = e.target.closest('Faq-dropdown-header');
         
          if(!gruopHeader) return;
